@@ -1,0 +1,4 @@
+﻿  源.cpp
+e:\cpp_practice\datastructure\multifolumalinked\源.cpp(49): warning C4715: “LinkedList::add”: 不是所有的控件路径都返回值
+  multifolumaLinked.vcxproj -> E:\cpp_practice\dataStructure\Debug\multifolumaLinked.exe
+  multifolumaLinked.vcxproj -> E:\cpp_practice\dataStructure\Debug\multifolumaLinked.pdb (Partial PDB)

@@ -1,0 +1,29 @@
+﻿  man.cpp
+e:\cpp_practice\datastructure\list\man.cpp(8): error C2059: 语法错误:“for”
+e:\cpp_practice\datastructure\list\man.cpp(8): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+e:\cpp_practice\datastructure\list\man.cpp(8): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+e:\cpp_practice\datastructure\list\man.cpp(8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\cpp_practice\datastructure\list\man.cpp(8): error C2143: 语法错误: 缺少“;”(在“++”的前面)
+e:\cpp_practice\datastructure\list\man.cpp(8): error C2086: “int i”: 重定义
+  e:\cpp_practice\datastructure\list\man.cpp(8): note: 参见“i”的声明
+e:\cpp_practice\datastructure\list\man.cpp(8): error C2059: 语法错误:“)”
+e:\cpp_practice\datastructure\list\man.cpp(10): error C3927: "->": 非函数声明符后不允许尾随返回类型
+e:\cpp_practice\datastructure\list\man.cpp(10): error C3613: “->”后缺少返回类型(假定为“int”)
+e:\cpp_practice\datastructure\list\man.cpp(10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\cpp_practice\datastructure\list\man.cpp(10): error C2040: “a”:“int”与“List *”的间接寻址级别不同
+e:\cpp_practice\datastructure\list\man.cpp(10): error C2146: 语法错误: 缺少“;”(在标识符“display”的前面)
+e:\cpp_practice\datastructure\list\man.cpp(11): error C3927: "->": 非函数声明符后不允许尾随返回类型
+e:\cpp_practice\datastructure\list\man.cpp(11): error C3613: “->”后缺少返回类型(假定为“int”)
+e:\cpp_practice\datastructure\list\man.cpp(11): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\cpp_practice\datastructure\list\man.cpp(11): error C2040: “a”:“int”与“List *”的间接寻址级别不同
+e:\cpp_practice\datastructure\list\man.cpp(11): error C2146: 语法错误: 缺少“;”(在标识符“insert”的前面)
+e:\cpp_practice\datastructure\list\man.cpp(12): error C3927: "->": 非函数声明符后不允许尾随返回类型
+e:\cpp_practice\datastructure\list\man.cpp(12): error C3613: “->”后缺少返回类型(假定为“int”)
+e:\cpp_practice\datastructure\list\man.cpp(12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\cpp_practice\datastructure\list\man.cpp(12): error C2040: “a”:“int”与“List *”的间接寻址级别不同
+e:\cpp_practice\datastructure\list\man.cpp(12): error C2146: 语法错误: 缺少“;”(在标识符“display”的前面)
+e:\cpp_practice\datastructure\list\man.cpp(13): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+e:\cpp_practice\datastructure\list\man.cpp(13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\cpp_practice\datastructure\list\man.cpp(14): error C2059: 语法错误:“return”
+e:\cpp_practice\datastructure\list\man.cpp(15): error C2059: 语法错误:“}”
+e:\cpp_practice\datastructure\list\man.cpp(15): error C2143: 语法错误: 缺少“;”(在“}”的前面)

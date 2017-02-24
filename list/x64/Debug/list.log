@@ -1,0 +1,2 @@
+﻿  loopList.cpp
+e:\cpp_practice\datastructure\list\looplist.cpp(11): error C4716: “LoopList::insertToFirst”: 必须返回一个值

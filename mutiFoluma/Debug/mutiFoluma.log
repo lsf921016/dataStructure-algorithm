@@ -1,0 +1,4 @@
+﻿  ArrayList.cpp
+e:\cpp_practice\datastructure\mutifoluma\arraylist.cpp(23): warning C4172: 返回局部变量或临时变量的地址: array
+  mutiFoluma.vcxproj -> E:\cpp_practice\dataStructure\Debug\mutiFoluma.exe
+  mutiFoluma.vcxproj -> E:\cpp_practice\dataStructure\Debug\mutiFoluma.pdb (Partial PDB)

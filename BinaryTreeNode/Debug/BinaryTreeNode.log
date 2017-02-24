@@ -1,0 +1,10 @@
+﻿  Tree.cpp
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(14): error C4716: “BinaryTreeNode::leftChild”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(15): error C4716: “BinaryTreeNode::rightChild”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(19): error C4716: “BinaryTreeNode::isLeaf”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(20): error C4716: “BinaryTreeNode::operator=”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(76): error C4716: “Queue::getLength”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(91): error C4716: “BinaryTree::isEmpty”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(127): error C4716: “leftSibling”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(128): error C4716: “rightSibling”: 必须返回一个值
+e:\cpp_practice\datastructure\binarytreenode\tree.cpp(126): warning C4715: “BinaryTree::parent”: 不是所有的控件路径都返回值
