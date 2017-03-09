@@ -22,7 +22,7 @@ public:
 
 	int verticesNum();
 	int edgesNum();
-	void visit(Graph &g, int v);
+	void  visit(Graph &g, int v);
 	Edge firstEdge(int oneVertice);
 	Edge nextEdge(Edge preEdge);
 	bool setEdge(int fromVertice, int toVertice, int weight);

@@ -56,7 +56,7 @@ Node* BST::remove(int value, Node *rt) {
 			rt = rt->left;
 		else {
 			temp=deleteMin(rt->right);
-			rt->setValue(temp->value);
+			rt->value=temp->value;
 		}
 	}
 }

@@ -1,6 +1,6 @@
 #include"graph.h"
 #include<stdio.h>
-
+#include<queue>
 #define UNVISITED 0
 #define VISITED 1
 
@@ -19,23 +19,39 @@ int Graph::ToVertice(Edge oneEdge){}
 int Graph::weight(Edge oneEdge){}
 void Graph::traverse(Graph &g) {
 	//set each node to be unvisited
-	for (int i = 0; i < g.verticesNum(); ++i) {
+	for (int i = 0; i < g.verticesNum(); ++i)
 		g.mark[i] = UNVISITED;
-		for (int i = 0; i < g.verticesNum(); ++i) {
-			if (g.mark[i] == UNVISITED) {
-				DFS(g, i);
-				BFS(g, i);
-			}
-
+	for (int i = 0; i < g.verticesNum(); ++i) {
+		if (g.mark[i] == UNVISITED) {
+			DFS(g, i);
+			BFS(g, i);
 		}
 	}
 }
-	void Graph::DFS(Graph &g,int v) {
+	void Graph::DFS(Graph &g, int v) {
 		g.mark[v] = VISITED;
 		visit(g, v);
 		for (Edge e = g.firstEdge(v); g.isEdge(e); e = g.nextEdge(e)) {
 			if (g.mark[g.ToVertice(e)] == UNVISITED)
 				DFS(g, g.ToVertice);
 		}
-		postVisit(g, v);
+		//postVisit(g, v);
+	}
+
+	void Graph::BFS(Graph &g, int v) {
+		queue<int> q;
+		visit(g, v);
+		g.mark[v] = VISITED;
+		q.push(v);
+		while (!q.empty()) {
+			int u = q.front();
+			q.pop();
+			for (Edge e = g.firstEdge(v); g.isEdge(e); e = g.nextEdge(e)) {
+				if (g.mark[g.ToVertice(e)] == UNVISITED) {
+					visit(g, g.ToVertice(e));
+					g.mark[g.ToVertice(e)] = VISITED;
+					q.push(g.ToVertice(e));
+				}
+			}
+		}
 	}
