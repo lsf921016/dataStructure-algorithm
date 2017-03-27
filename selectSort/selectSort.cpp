@@ -46,23 +46,17 @@ int partition(int array[], int left, int right) {
 			l++;//如果l位置元素比轴值小，则直接将l向右移动一位
 		}
 		//跳出循环时，此时的l位置的元素是大于轴值的
-		if (l < r) {
-			array[r] = array[l];
-			--r;
-			//将此时l位置的元素的值覆盖到r位置，并将r向左移动一位
-		}
 
 		while (array[r] >= temp&&r > l) {
 			r--;
 		}
 		if (l < r) {
-			array[l] = array[r];
-			++l;
+			swap(array, l, r);
 			
 		}
 	}//end while
 	//此时l=r
-	array[l] = temp;
+	swap(array, l, right);
 	return l;
 }
 void quickSort(int array[], int left, int right) {
@@ -94,7 +88,7 @@ void _merge(int array[], int tempArr[], int left, int right, int mid) {
 	int index1 = left;//左子数组的起始位置
 	int index2 = mid + 1;
 
-	for (int i = 0; i <= right; ++i) {
+	for (int i = left; i <= right; ++i) {
 		tempArr[i] = array[i];
 	}
 

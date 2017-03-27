@@ -37,8 +37,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graph", "graph\graph.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sort", "selectSort\selectSort.vcxproj", "{EDA46982-67EE-4C01-A8EB-CFD7ABF8D604}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OutterSort", "OutterSort\OutterSort.vcxproj", "{775E924E-62A8-46DD-903B-195BC65C879A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -183,14 +181,6 @@ Global
 		{EDA46982-67EE-4C01-A8EB-CFD7ABF8D604}.Release|x64.Build.0 = Release|x64
 		{EDA46982-67EE-4C01-A8EB-CFD7ABF8D604}.Release|x86.ActiveCfg = Release|Win32
 		{EDA46982-67EE-4C01-A8EB-CFD7ABF8D604}.Release|x86.Build.0 = Release|Win32
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Debug|x64.ActiveCfg = Debug|x64
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Debug|x64.Build.0 = Debug|x64
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Debug|x86.ActiveCfg = Debug|Win32
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Debug|x86.Build.0 = Debug|Win32
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Release|x64.ActiveCfg = Release|x64
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Release|x64.Build.0 = Release|x64
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Release|x86.ActiveCfg = Release|Win32
-		{775E924E-62A8-46DD-903B-195BC65C879A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

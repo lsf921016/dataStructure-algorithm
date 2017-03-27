@@ -47,7 +47,5 @@ RandomListNode *copyRandomList(RandomListNode *head) {
 
 
 int main() {
-	RandomListNode *head=new RandomListNode()
-		//test test test
-	return 0;
+	INT_MAX
 }
